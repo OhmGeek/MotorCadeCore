@@ -2,6 +2,10 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorCadeCore", "MotorCadeCore\MotorCadeCore.csproj", "{ECD5880C-28A3-47C0-B450-BC850674573E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorCadeCore.Engine", "MotorCadeCore.Engine\MotorCadeCore.Engine.csproj", "{821424B9-CB59-467B-8C45-A13F950F04FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MotorCadeCore.Engine.Tests", "MotorCadeCore.Engine.Tests\MotorCadeCore.Engine.Tests.csproj", "{74EB8CB3-319C-4192-AAAB-482D4401DA9C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +16,13 @@ Global
 		{ECD5880C-28A3-47C0-B450-BC850674573E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECD5880C-28A3-47C0-B450-BC850674573E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECD5880C-28A3-47C0-B450-BC850674573E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{821424B9-CB59-467B-8C45-A13F950F04FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{821424B9-CB59-467B-8C45-A13F950F04FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{821424B9-CB59-467B-8C45-A13F950F04FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{821424B9-CB59-467B-8C45-A13F950F04FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74EB8CB3-319C-4192-AAAB-482D4401DA9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74EB8CB3-319C-4192-AAAB-482D4401DA9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74EB8CB3-319C-4192-AAAB-482D4401DA9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74EB8CB3-319C-4192-AAAB-482D4401DA9C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -29,6 +29,20 @@
   },
   "frameworks": {
     "netcoreapp3.1": {
+      "dependencies": {
+        "Microsoft.AspNetCore.Blazor": {
+          "target": "Package",
+          "version": "[3.1.0-preview4.19579.2, )"
+        },
+        "Microsoft.AspNetCore.Blazor.Build": {
+          "target": "Package",
+          "version": "[3.1.0-preview4.19579.2, )"
+        },
+        "Microsoft.AspNetCore.Blazor.Mono": {
+          "target": "Package",
+          "version": "[3.1.0-preview4.19578.1, )"
+        }
+      },
       "imports": [
         "net461",
         "net462",

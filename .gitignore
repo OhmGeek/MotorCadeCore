@@ -37,7 +37,7 @@ bld/
 #wwwroot/
 
 # IntelliJ idea
-.idea/
+.idea/*
 # Visual Studio 2017 auto generated files
 Generated\ Files/
 
@@ -87,6 +87,7 @@ StyleCopReport.xml
 *.tmp
 *.tmp_proj
 *_wpftmp.csproj
+*.csproj.nuget.*
 *.log
 *.vspscc
 *.vssscc
@@ -94,6 +95,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.cache
 
 # Chutzpah Test files
 _Chutzpah*
@@ -353,3 +355,7 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+/MotorCadeCore.Engine.Tests/bin/
+/MotorCadeCore.Engine.Tests/bin/
+/MotorCadeCore/bin/
+/.idea/
